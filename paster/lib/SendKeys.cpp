@@ -535,7 +535,7 @@ bool CSendKeys::AppActivate(HWND wnd)
   if (wnd == NULL)
     return false;
 
-  ::SendMessage(wnd, WM_SYSCOMMAND, SC_RESTORE, (LPARAM) wnd);
+  ::SendMessage(wnd, WM_SYSCOMMAND, SC_HOTKEY, (LPARAM) wnd);
   
   ::ShowWindow(wnd, SW_SHOW);
   ::SetForegroundWindow(wnd);
