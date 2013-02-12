@@ -1,0 +1,17 @@
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+ipch/
+obj/
+build/
+
+*.suo
+*.user
+*.bak
+*.[Cc]ache
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.obj
